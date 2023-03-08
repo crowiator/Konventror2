@@ -13,17 +13,22 @@ struct ContentView: View {
         NavigationView{
             
             ScrollView{
+                
+                //vzdialenost
                 NavigationLink{
                 ConvertVzdialenostView()
                 } label: {
                     LinkView(topColor: .blue, bottomColor: .brown, headerTitle: "Vzdialenost", titleImage: "imageKM")
                 }
                 
+                //objem
                 NavigationLink{
                 ConvertObjemView()
                 } label: {
                     LinkView(topColor: .red, bottomColor: .green, headerTitle: "Objem", titleImage: "imageML")
                 }
+                
+                //hmotnost
                 NavigationLink{
                 ConvertHmotnostView()
                 } label: {
