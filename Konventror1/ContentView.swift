@@ -29,6 +29,7 @@ struct ContentView: View {
                 }
                 
                 //hmotnost
+                //skusam
                 NavigationLink{
                 ConvertHmotnostView()
                 } label: {
