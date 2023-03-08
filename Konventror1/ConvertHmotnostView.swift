@@ -4,6 +4,7 @@
 //
 //  Created by crow on 08/03/2023.
 //
+// pridane
 
 import SwiftUI
 
